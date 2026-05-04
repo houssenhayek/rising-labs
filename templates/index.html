@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rising Labs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle at top, #111, #000);
+            color: white;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+        }
+
+        .logo {
+            color: #00ffcc;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin: 0;
+            background: linear-gradient(90deg, #00ffcc, #00aaff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            color: #bbb;
+            font-size: 18px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            background: #00ffcc;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background: white;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #111;
+            padding: 20px;
+            border-radius: 12px;
+            width: 250px;
+            border: 1px solid #222;
+        }
+
+        .card:hover {
+            border-color: #00ffcc;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="nav">
+    <div class="logo">Rising Labs</div>
+</div>
+
+<div class="hero">
+    <h1>Build Startups Together</h1>
+    <p>We connect founders, developers, and designers to turn ideas into real companies in Lebanon 🇱🇧</p>
+
+    <a href="/join">
+        <button class="btn">Join Rising Labs</button>
+    </a>
+</div>
+
+<div class="cards">
+    <div class="card">
+        <h3>💡 Founders</h3>
+        <p>Share your startup ideas</p>
+    </div>
+
+    <div class="card">
+        <h3>💻 Developers</h3>
+        <p>Build real products</p>
+    </div>
+
+    <div class="card">
+        <h3>🤝 Collaboration</h3>
+        <p>We match the right people</p>
+    </div>
+</div>
+
+</body>
+</html>
